@@ -9,7 +9,6 @@
 </head>
 <?php 
 if(!empty($_FILES)){
-  $_FILES['file'];
   createFile($_FILES['file']['tmp_name']);
 }
 
